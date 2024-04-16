@@ -28,7 +28,7 @@ flowchart LR
     PI -.-> TF[Third Flow]
     TF -.-> POF
     end
-    C --> P
+    C <--> P
     PI --> POF
     POF --> PO
 ```
